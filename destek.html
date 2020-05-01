@@ -1,0 +1,173 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>İmza Kampanyası</title>
+<link href="style1.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+body,td,th {
+	font-weight: bold;
+	font-size: 17px;
+	text-align: center;
+	color: #000;
+}
+#main #yorum p {
+	font-weight: bold;
+	text-align: center;
+}
+</style>
+<link href="SpryAssets/SpryValidationTextField.css" rel="stylesheet" type="text/css" />
+<link href="SpryAssets/SpryValidationTextarea.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+#main #yorum p {
+	text-align: center;
+}
+body {
+	margin-top: 10px;
+}
+#main #yorum p {
+	text-align: center;
+}
+#Kampanya1 {
+	position: absolute;
+	left: 1100px;
+	top: 355px;
+	width: 150px;
+	height: 85px;
+	z-index: 1;
+	text-align: left;
+	background-color: #FCF;
+	float: left;
+	visibility: hidden;
+}
+#Kampanya2 {
+	position: absolute;
+	left: 1100px;
+	top: 470px;
+	width: 150px;
+	height: 85px;
+	z-index: 2;
+	text-align: left;
+	background-color: #FFC;
+	float: left;
+	visibility: hidden;
+}
+#Kampanya3 {
+	position: absolute;
+	left: 1100px;
+	top: 595px;
+	width: 150px;
+	height: 85px;
+	z-index: 3;
+	text-align: left;
+	background-color: #C4E1FF;
+	float: left;
+	visibility: hidden;
+}
+#main #yorum table {
+	font-weight: normal;
+}
+</style>
+<script src="SpryAssets/SpryValidationTextField.js" type="text/javascript"></script>
+<script src="SpryAssets/SpryValidationTextarea.js" type="text/javascript"></script>
+<script src="SpryAssets/SpryEffects.js" type="text/javascript"></script>
+<script type="text/javascript">
+function MM_popupMsg(msg) { //v1.0
+  alert(msg);
+}
+function MM_effectAppearFade(targetElement, duration, from, to, toggle)
+{
+	Spry.Effect.DoFade(targetElement, {duration: duration, from: from, to: to, toggle: toggle});
+}
+function MM_showHideLayers() { //v9.0
+  var i,p,v,obj,args=MM_showHideLayers.arguments;
+  for (i=0; i<(args.length-2); i+=3) 
+  with (document) if (getElementById && ((obj=getElementById(args[i]))!=null)) { v=args[i+2];
+    if (obj.style) { obj=obj.style; v=(v=='show')?'visible':(v=='hide')?'hidden':v; }
+    obj.visibility=v; }
+}
+</script>
+</head>
+
+<body onload="MM_popupMsg('Diğer imza kampanyalarına Anasayfa sekmesinden destek verebilirsiniz.')">
+<div id="Kampanya1"><img src="Resimler/megafon.png" width="70" height="50" />Kampanya detayı için <a href="https://tr.lipsum.com/" target="_blank">tıklayın </a></div>
+<div id="Kampanya2"><img src="Resimler/megafon.png" width="70" height="50" />Kampanya detayı için <a href="https://tr.lipsum.com/" target="_blank">tıklayın </a></div>
+<div id="Kampanya3"><img src="Resimler/megafon.png" width="70" height="50" />Kampanya detayı için <a href="https://tr.lipsum.com/" target="_blank">tıklayın </a></div>
+<div id="main">
+  <div id="header"></div>
+  <div id="menu">
+    <table width="1000" height="50" >
+      <tr>
+        <td width="250"><blockquote>
+          <p><b>Anasayfa</b></p>
+        </blockquote></td>
+        <td width="250"><b>Kampanya Başlat</b></td>
+        <td width="250"><blockquote>
+          <p><b> İletişim</b></p>
+        </blockquote></td>
+        <td width="250"><form action="" name="aramakutusu" method="post">
+          <input type="text" name="arama" placeholder="Arama" />
+          <input type="submit" name="gonder"  value="Bul"/>
+        </form></td>
+      </tr>
+    </table>
+  </div>
+  <div id="tesekür">
+    <table width="450" height="500" >
+    <tr>
+      <td align="center" valign="middle" onclick="MM_effectAppearFade(this, 1000, 100, 0, false)" ><img src="Resimler/tesekkürgif.gif" height="500" width="450"/>Kampanya Başlat sekmesinden kendi kampanyanızı başlatabilirsiniz.      
+      	</td>
+    </tr>
+  </table>
+  </div>
+  
+  <div id="yorum">
+    <p>
+    <div align="center">
+      <table width="427" height="352" border="0" align="center">
+        <tr>
+          <td width="133" onmouseover="MM_showHideLayers('Kampanya1','','show','Kampanya2','','hide','Kampanya3','','hide')">Kampanya 1</td>
+          <td width="269">&nbsp;</td>
+        </tr>
+        <tr>
+          <td onmouseover="MM_showHideLayers('Kampanya1','','hide','Kampanya2','','show','Kampanya3','','hide')" onfocus="MM_showHideLayers('Kampanya1','','hide','Kampanya2','','show','Kampanya3','','hide')">Kampanya 2</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td onmouseover="MM_showHideLayers('Kampanya1','','hide','Kampanya2','','hide','Kampanya3','','show')" onfocus="MM_showHideLayers('Kampanya1','','hide','Kampanya2','','hide','Kampanya3','','show')">Kampanya 3</td>
+          <td>&nbsp;</td>
+        </tr>
+      </table>
+    </div>
+    <p>
+    <p>
+    <p>                        
+    <hr />
+    <div > <script language="javascript" src="http://ir.sitekodlari.com/tarihvesaat1.js"></script> </div>
+    </p>
+  </div>
+  
+  <div id="temizle">
+  </div>
+  <div id="sosyalmedya">
+    <table width="1000" height="60" >
+      <tr>
+        <td width="250"><a href="https://tr-tr.facebook.com/" target="_blank"><img src="Resimler/faceikon.png" alt="face" width="50" height="50"  /> </a></td>
+        <td width="250"> <a href="https://www.instagram.com/?hl=tr" target="_blank"><img src="Resimler/instagramikon.png" alt="instagram" width="50" height="50"/> </a></td>
+        <td width="250"><a href="https://twitter.com/login?lang=tr" target="_blank"><img src="Resimler/twitterikon.png" alt="twitter" width="50" height="50"/> </a></td>
+        <td width="250"><a href="https://web.whatsapp.com/" target="_blank"><img src="Resimler/whatsappikon.png" alt="whatsapp" width="50" height="50"/> </a></td>
+      </tr>
+    </table> 
+    
+  </div>
+  
+  <div id="footer" align="center"> 2020 &copy;Site Hakları Saklıdır.</div>
+</div>
+<script type="text/javascript">
+var sprytextfield1 = new Spry.Widget.ValidationTextField("sprytextfield1");
+var sprytextfield2 = new Spry.Widget.ValidationTextField("sprytextfield2");
+var sprytextfield3 = new Spry.Widget.ValidationTextField("sprytextfield3");
+var sprytextarea1 = new Spry.Widget.ValidationTextarea("sprytextarea1", {counterType:"chars_remaining", counterId:"countsprytextarea1", maxChars:250});
+</script>
+</body>
+</html>

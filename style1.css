@@ -1,0 +1,94 @@
+@charset "utf-8";
+#main {
+	height: 1000px;
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#header {
+	height: 200px;
+	width: 1000px;
+	background-repeat: no-repeat;
+	background-image: url(Resimler/header.png);
+}
+
+#menu {
+	background-color: #94C2B7;
+	height: 50px;
+	width: 1000px;
+	margin-top: 10px;
+	float: left;
+}
+#tesekür {
+	background-color: #FFF;
+	float: left;
+	height: 555px;
+	width: 470px;
+	margin-top: 10px;
+	margin-right: 10px;
+	text-align: center;
+}
+#yorum {
+	float: left;
+	height: 555px;
+	width: 520px;
+	margin-top: 10px;
+	font-weight: bold;
+	text-align: left;
+}
+
+
+
+
+#temizle {
+	clear: both;
+}
+
+#sosyalmedya {
+	height: 60px;
+	width: 1000px;
+	background-color: #FFF;
+	margin-top: 15px;
+	margin-bottom: 25px;
+}
+
+
+#footer {
+	background-color: #333333;
+	height: 33px;
+	width: 1000px;
+	margin-top: 10px;
+	color: #FFF;
+	text-align: center;
+	top: 0px;
+	bottom: 0px;
+	clip: rect(0px,0px,0px,0px);
+}
+
+#main #content #metin blockquote p strong {
+	text-align: left;
+}
+#main #content #metin blockquote p strong {
+	text-align: left;
+}
+#main #bilgi #imzalama p {
+	font-size: 16px;
+	font-weight: bold;
+}
+#main #content #metin p {
+	font-size: 18px;
+}
+#main #yorum p {
+	font-weight: bold;
+	text-align: justify;
+}
+#main #yorum p {
+	font-weight: normal;
+	text-align: left;
+}
+#main #yorum p b font {
+	text-align: center;
+}
+#main #yorum p b font {
+	text-align: center;
+}
